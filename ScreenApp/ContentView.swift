@@ -12,10 +12,17 @@ struct ContentView: View {
         ZStack{
             Color.blue
                 .ignoresSafeArea()
-            Text("Yun Hee")
-                .font(.largeTitle)
-                .bold()
-                .foregroundStyle(.white)
+            VStack{
+                Text("Yun Hee")
+                    .font(.largeTitle)
+                    .bold()
+                    .foregroundStyle(.white)
+                Text("Chengkun")
+                    .font(.largeTitle)
+                    .bold()
+                    .foregroundStyle(.white)
+            }
+            
         }
     }
 }
